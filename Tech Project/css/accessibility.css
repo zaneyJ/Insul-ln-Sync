@@ -1,0 +1,56 @@
+#accessibility-toggle {
+    position: fixed;
+    top: 75vh;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#accessibility-toggle:hover {
+    background-color: #45a049;
+}
+
+#accessibility-panel {
+    display: none;
+    position: fixed;
+    top: 55vh;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.accessibility-button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    background-color: #877933;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accessibility-button:hover {
+    background-color: #6b5f2a;
+}
+
+.error-message {
+    display: none;
+    color: #ff0000;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+} 
